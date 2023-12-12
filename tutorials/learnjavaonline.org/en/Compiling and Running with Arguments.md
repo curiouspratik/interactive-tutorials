@@ -71,16 +71,16 @@ Expected Output
 // we have written (uses the cat command),
 // compiles and runs it with arguments.
 
-$ cat Arguments.java
-public class Arguments {
+$ cat Main.java
+public class Main {
     public static void main(String[] args) {
         for (int i = 0; i < args.length; i++) {
             System.out.println(args[i]);
         }
     }
 }
-$ javac Arguments.java
-$ java Arguments arg0 arg1 arg2 
+$ javac Main.java
+$ java Main arg0 arg1 arg2 
 arg0
 arg1
 arg2
